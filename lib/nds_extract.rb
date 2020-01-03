@@ -32,5 +32,5 @@ def directors_totals(nds)
     result[nds[director_index][:name]] = gross
     index += 1
   }
-  nil
+  return result
 end
