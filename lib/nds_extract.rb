@@ -25,8 +25,9 @@ def directors_totals(nds)
   for nds.each{ |element|
     movie = 0
     total = 0
-    while movie.index < nds[index][:movies].length do
-      total += 
+    while movie < nds[index][:movies].length do
+      total += nds[index][:movies][movie][:worldwide_gross]
+      
     end
     index += 1
   }
