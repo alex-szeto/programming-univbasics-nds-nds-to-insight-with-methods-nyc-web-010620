@@ -23,6 +23,7 @@ def directors_totals(nds)
   index = 0
   
   for nds.each{ |element|
+    movie = 0
     
     index += 1
   }
