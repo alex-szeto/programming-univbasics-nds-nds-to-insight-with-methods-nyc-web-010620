@@ -20,5 +20,11 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
+  index = 0
+  
+  for nds.each{ |element|
+    
+    index += 1
+  }
   nil
 end
